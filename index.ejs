@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vierport" content="width=device-width, inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Texto</title>
+    </head>
+    <body>
+        <h1>READ ME - USANDO O PRÓPRIO CÓDIGO</h1>
+        <hr>
+        <p>PDF usando base em html</p>
+        <hr>
+        <p>Nome: <%= nome %></p>
+        <p>Curso: <%=curso%> </p>
+        <hr>
+        <p>Para fazer o uso corretamente deste gerador é preciso
+            que se tenha os itens:</p>
+            <li>Node JS & NPM</li>
+        <p>Além disso é preciso instalar as bibliotecas html-pdf e ejs no seu projeto,
+            para isso pode-se usar os comandos abaixo:
+        </p>
+        <li>npm install html-pdf</li>
+        <li>npm install ejs</li>
+
+        <p>Após isso, o gerador já irá rodar perfeitamente.</p>
+        <p>INFORMAÇÕES GERAIS</p>
+        <hr>
+        <p>O projeto possui os arquivos: index.js, index.ejs e os arquivos padrões do NodeJS.
+            O arquivo index.ejs é um "template engines (ou view engines)", Basicamente, uma template engine serve para facilitar a criação de páginas HTML e tornar o envio e exibição de informações para estas páginas um processo mais simples e organizado.
+            No index.js acontece toda parte da geração do PDF, o script de forma sucinta chama o arquivo ejs, renderiza ele em html e passa para a biblioteca pdf-html que gera o arquivo PDF.
+        </p>
+        <p>Biblioteca EJS -> https://ejs.co/</p>
+
+        <p>Biblioteca pdf-html -> https://www.npmjs.com/package/html-pdf-node </p>
+
+        <p>Mais informações sobre Template engine -> https://www.treinaweb.com.br/blog/o-que-e-template-engine/</p>
+    </body>
+</html>
